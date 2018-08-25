@@ -1,0 +1,14 @@
+You are required to design a perceptron classifier that can recognize scanned images of the
+26 lower-case characters provided in the file “Assignment 1 Dataset.zip”. The zip file
+contains two folders: “Train” and “Test”. The “Train” folder contains 7 images for each
+lower-case character while the “Test” folder contains 2 images for each lower-case
+character. The images in the “Train” folder should be used to train a classifier for each
+character using the method given at the bottom of slide 9 in Lecture 2.pdf. After the
+classifiers are trained, test each classifier using the images given in the “Test” folder. For
+each perceptron classifier, use ? = 0.05 and an initial weight vector that has 1 as the first
+component (w1) and the rest are zeros.
+Deliverables:
+• Your code.
+• A plot of the number of images classified correctly for each character. The x-axis
+should show the character (a, b, …, z) while the y-axis should show the count. Name
+the plot “Accuracy.jpg”.
